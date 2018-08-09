@@ -1,0 +1,11 @@
+<h2>Pirate Name: <%=@pirate.name%></h2>
+<h2>Pirate Height: <%=@pirate.height%></h2>
+<h2>Pirate Weight: <%=@pirate.weight%></h2>
+
+<%@ships.each do |ship| %>
+  <h3>Ship Name: <%= ship.name %></h3>
+  <h3>Ship Type: <%= ship.type %></h3>
+  <h3>Ship Booty: <%= ship.booty %></h3>
+<% end %>
+
+<!-- <h2>Display your second ship here</h2> -->
